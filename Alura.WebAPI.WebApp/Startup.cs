@@ -40,6 +40,11 @@ namespace Alura.ListaLeitura.WebApp
                 options.Password.RequireLowercase = false;
             }).AddEntityFrameworkStores<AuthDbContext>();
 
+            services.AddHttpClient<LivroApiClient>(client =>
+            {
+                client.BaseAddress = new System.Uri("http://localhost:6000/api/");
+            });
+
             services.ConfigureApplicationCookie(options => {
                 options.LoginPath = "/Usuario/Login";
             });
