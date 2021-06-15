@@ -27,7 +27,8 @@ namespace Alura.ListaLeitura.Modelos
         public string Autor { get; set; }
         public string Lista { get; set; }
 
-
+        //mais um teste
+        //outro teste
 	}
 
     public class LivroUpload
