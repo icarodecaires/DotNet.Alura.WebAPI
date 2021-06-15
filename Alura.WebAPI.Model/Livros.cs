@@ -28,7 +28,6 @@ namespace Alura.ListaLeitura.Modelos
         public string Lista { get; set; }
 
 
-        //teste final
 	}
 
     public class LivroUpload
