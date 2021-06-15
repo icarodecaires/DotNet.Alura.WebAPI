@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Alura.WebAPI.WebApp.Formatters;
 using Microsoft.IdentityModel.Tokens;
 using System;
+using Alura.ListaLeitura.HttpClients;
 
 namespace Alura.ListaLeitura.WebApp
 {
@@ -40,7 +41,7 @@ namespace Alura.ListaLeitura.WebApp
                 options.Password.RequireLowercase = false;
             }).AddEntityFrameworkStores<AuthDbContext>();
 
-            services.AddHttpClient<LivroApiClient>(client =>
+            services.AddHttpClient<LivroApiclient>(client =>
             {
                 client.BaseAddress = new System.Uri("http://localhost:6000/api/");
             });
