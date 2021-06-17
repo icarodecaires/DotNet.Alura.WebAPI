@@ -39,4 +39,5 @@ namespace Alura.ListaLeitura.Modelos
         public IFormFile Capa { get; set; }
         public TipoListaLeitura Lista { get; set; }
     }
+	//testeeee
 }
