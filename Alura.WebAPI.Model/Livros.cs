@@ -40,5 +40,7 @@ namespace Alura.ListaLeitura.Modelos
         public TipoListaLeitura Lista { get; set; }
     }
 
+    //aaaaa
+    //teste merge
     //novo teste
 }
