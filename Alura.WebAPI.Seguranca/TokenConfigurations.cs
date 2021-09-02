@@ -1,4 +1,4 @@
-﻿namespace Alura.ListaLeitura.Seguranca
+namespace Alura.ListaLeitura.Seguranca
 {
     public class TokenConfigurations
     {
@@ -6,4 +6,6 @@
         public string Issuer { get; set; }
         public int Seconds { get; set; }
     }
+    //testando isso
+    //teste 2
 }
