@@ -1,4 +1,4 @@
-namespace Alura.ListaLeitura.Seguranca
+﻿namespace Alura.ListaLeitura.Seguranca
 {
     public class TokenConfigurations
     {
@@ -8,4 +8,6 @@ namespace Alura.ListaLeitura.Seguranca
     }
     //testando isso
     //teste 2
+     
+     //fazendo algo
 }
