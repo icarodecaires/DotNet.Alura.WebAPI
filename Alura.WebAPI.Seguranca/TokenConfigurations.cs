@@ -6,9 +6,4 @@
         public string Issuer { get; set; }
         public int Seconds { get; set; }
     }
-    //testando isso
-    //teste 2
-     
-     //fazendo outro teste
-     //fazendo outro teste 2
 }
